@@ -25,7 +25,7 @@ The files were read and merged into a single data frame.
 ## Results:  
   
 The data table extracted from the raw data is below.  
-![PyBer fares by city type]('fares_by_city_type.PNG')  
+![PyBer fares by city type]('Fares_by_city_type.PNG')  
 The summary data show that the majority (68%) of the rides were in urban cities and that, on average, the fares collected in urban cities were lower than in either suburban or rural cities.  One can infer from the data that the average ride distances are shorter for urban areas.  This result is expected; urban areas are, by definition, more densely populated than suburban and rural areas and ride destinations (restaurants, clubs, movie theaters) tend to be closer to areas with housing.  
   
 The relationship between total drivers and total rides raises questions about the PyBer business.  In particular, there are more drivers than total rides.  The relationship is particularly stark in urban cities.  The abundance of available drivers results in an average fare of only $16.57 per driver.  
