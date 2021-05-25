@@ -14,8 +14,8 @@ However, on a per ride basis and a per driver basis the Rural and Suburban busin
 ## Data Summary:  
 
 The data for this analysis are in two .csv files.  
-[Cities and number of drivers]('Resources/city_data.csv')  
-[Ride data]('Resources/ride_data.csv')  
+[Cities and number of drivers](Resources/city_data.csv)  
+[Ride data](Resources/ride_data.csv)  
 The city file contains 120 cities with theis total number of active drivers and type clasification as either urban, suburban, or rural.  
 
 The rides file contains 2,375 rides with date and time, the fare, and a unique ride ID.  
@@ -25,7 +25,7 @@ The files were read and merged into a single data frame.
 ## Results:  
   
 The data table extracted from the raw data is below.  
-![PyBer fares by city type]('Fares_by_city_type.PNG')  
+![PyBer fares by city type](Fares_by_city_type.PNG)  
 The summary data show that the majority (68%) of the rides were in urban cities and that, on average, the fares collected in urban cities were lower than in either suburban or rural cities.  One can infer from the data that the average ride distances are shorter for urban areas.  This result is expected; urban areas are, by definition, more densely populated than suburban and rural areas and ride destinations (restaurants, clubs, movie theaters) tend to be closer to areas with housing.  
   
 The relationship between total drivers and total rides raises questions about the PyBer business.  In particular, there are more drivers than total rides.  The relationship is particularly stark in urban cities.  The abundance of available drivers results in an average fare of only $16.57 per driver.  
@@ -33,7 +33,7 @@ The relationship between total drivers and total rides raises questions about th
 PyBer should track the number of fares collected per driver to understand the number of active drivers rather than just the number of people registered to be drivers.  That data would allow the company to optimize the number of drivers for an area to maximize corporate and driver profits.  
   
 The plot of total fare by city type for the first 4 months of 2019 is saved in the Analysis folder:  
-[Total fare by city type]('Analysis/Total_fare_by_City_Type.png')  
+[Total fare by city type](Analysis/Total_fare_by_City_Type.png)  
   
 The plot is shown below.  
 ![Total fare by city type](Total_fare_by_city_type.PNG)  
